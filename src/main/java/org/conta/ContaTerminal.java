@@ -22,6 +22,8 @@ public class ContaTerminal {
         double balance = scanner.nextDouble();
         scanner.nextLine();
 
+        scanner.close();
+
         String feedback = "Ola ".concat(clientName)
                 .concat(", obrigado por criar uma conta em nosso banco, sua agência é ")
                 .concat(agency)
